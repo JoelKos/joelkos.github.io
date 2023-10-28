@@ -37,3 +37,13 @@ p {
     background-color: #04AA6D;
     color: white;
 }
+
+.artikkeliteksti {
+    display: inline-block;
+    width: 65%;
+}
+
+.sivu {
+    width: 24%;
+    float: right;
+}
