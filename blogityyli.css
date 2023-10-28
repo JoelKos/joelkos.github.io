@@ -6,6 +6,11 @@ h1 {
     color: #AAAAAA;
 }
 
+h2 {
+    color: #AAAAAA;
+}
+
+
 p {
     color: #CCCCCC;
 }
@@ -40,10 +45,39 @@ p {
 
 .artikkeliteksti {
     display: inline-block;
-    width: 65%;
+    width: 75%;
 }
 
+/* The sidebar menu */
 .sivu {
-    width: 24%;
-    float: right;
+    height: 100%;
+    /* Full-height: remove this if you want "auto" height */
+    width: 25%;
+    /* Set the width of the sidebar */
+    position: fixed;
+    /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1;
+    /* Stay on top */
+    top: 0;
+    /* Stay at the top */
+    right: 0;
+    background-color: #222222;
+    /* Black */
+    overflow-x: hidden;
+    /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+/* The navigation menu links */
+.sivu a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+/* When you mouse over the navigation links, change their color */
+.sivu a:hover {
+    color: #f1f1f1;
 }
