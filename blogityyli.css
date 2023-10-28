@@ -19,6 +19,24 @@ p {
     color: #CCCCCC;
 }
 
+ol {
+    color: #CCCCCC;
+}
+
+table {
+    color: #CCCCCC;
+    border: 1px solid #AAAAAA;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td,
+th {
+    color: #CCCCCC;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
