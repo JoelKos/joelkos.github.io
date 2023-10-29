@@ -126,7 +126,8 @@ tr:nth-child(even) {
     background-color: #222;
     border-style: solid;
     border: 1px solid #f88;
-    max-width: 500px;
+    max-width: 425px;
+    max-width: 425px;
     display: auto;
 }
 
