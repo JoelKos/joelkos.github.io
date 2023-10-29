@@ -80,7 +80,7 @@ tr:nth-child(even) {
 
 .artikkeliteksti {
     display: inline-block;
-    width: 75%;
+    width: 95%;
 }
 
 .blogiteksti {
@@ -92,7 +92,7 @@ tr:nth-child(even) {
 .sivu {
     height: 100%;
     /* Full-height: remove this if you want "auto" height */
-    width: 25%;
+    width: 5%;
     /* Set the width of the sidebar */
     position: fixed;
     /* Fixed Sidebar (stay in place on scroll) */
@@ -138,6 +138,10 @@ tr:nth-child(even) {
 .etusivu_boksi table {
     color: #f88;
     border-color: #f88;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    white-space: nowrap;
 }
 
 .etusivu_boksi th {
