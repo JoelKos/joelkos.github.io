@@ -80,7 +80,7 @@ tr:nth-child(even) {
 
 .artikkeliteksti {
     display: inline-block;
-    width: 95%;
+    width: 100%;
 }
 
 .blogiteksti {
@@ -88,46 +88,13 @@ tr:nth-child(even) {
     width: 100%;
 }
 
-/* The sidebar menu */
-.sivu {
-    height: 100%;
-    /* Full-height: remove this if you want "auto" height */
-    width: 5%;
-    /* Set the width of the sidebar */
-    position: fixed;
-    /* Fixed Sidebar (stay in place on scroll) */
-    z-index: 1;
-    /* Stay on top */
-    top: 0;
-    /* Stay at the top */
-    right: 0;
-    background-color: #222222;
-    /* Black */
-    overflow-x: hidden;
-    /* Disable horizontal scroll */
-    padding-top: 20px;
-}
-
-/* The navigation menu links */
-.sivu a {
-    padding: 6px 8px 6px 16px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-}
-
-/* When you mouse over the navigation links, change their color */
-.sivu a:hover {
-    color: #f1f1f1;
-}
 
 .etusivu_boksi {
     background-color: #222;
     border-style: solid;
     border: 1px solid #f88;
-    max-width: 425px;
-    max-width: 425px;
+    max-width: 455px;
+    max-width: 455px;
     display: auto;
 }
 
