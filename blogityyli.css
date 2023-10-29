@@ -124,10 +124,10 @@ tr:nth-child(even) {
 
 .etusivu_boksi {
     background-color: #222;
-    display: inline-block;
-    width: auto;
     border-style: solid;
     border: 1px solid #f88;
+    max-width: 500px;
+    display: auto;
 }
 
 .etusivu_boksi p {
@@ -141,6 +141,7 @@ tr:nth-child(even) {
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    overflow-x: auto;
     white-space: nowrap;
 }
 
