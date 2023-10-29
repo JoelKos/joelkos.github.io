@@ -77,6 +77,11 @@ th {
     width: 75%;
 }
 
+.blogiteksti {
+    display: inline-block;
+    width: 100%;
+}
+
 /* The sidebar menu */
 .sivu {
     height: 100%;
