@@ -117,3 +117,29 @@ th {
 .sivu a:hover {
     color: #f1f1f1;
 }
+
+.etusivu_boksi {
+    background-color: #222;
+    display: inline-block;
+    width: auto;
+    border-style: solid;
+    border: 1px solid #f88;
+}
+
+.etusivu_boksi p {
+    color: #f88;
+    padding: 5px;
+}
+
+.etusivu_boksi table {
+    color: #f88;
+    border-color: #f88;
+}
+
+.etusivu_boksi th {
+    color: #f88;
+}
+
+.etusivu_boksi td {
+    color: #f88;
+}
