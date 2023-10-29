@@ -46,6 +46,10 @@ th {
     white-space: nowrap;
 }
 
+tr:nth-child(even) {
+    background-color: #444;
+}
+
 /* Add a black background color to the top navigation */
 .topnav {
     background-color: #333;
@@ -142,4 +146,8 @@ th {
 
 .etusivu_boksi td {
     color: #f88;
+}
+
+.etusivu_boksi tr:nth-child(even) {
+    background-color: #444;
 }
