@@ -81,11 +81,13 @@ tr:nth-child(even) {
 .artikkeliteksti {
     display: inline-block;
     width: 100%;
+    max-width: 900px;
 }
 
 .blogiteksti {
     display: inline-block;
     width: 100%;
+    max-width: 1075px;
 }
 
 
